@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+</head>
+<body>
+    
+    <table border="1" width="600">
+        <tr>
+        <td>title</td>
+        <td>Description</td>
+        </tr>
+        
+        {% for item in list %}
+        <tr>
+        <td>{{ item.title }}</td>
+        <td>
+        {{ item.description }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+
+</body>
+</html>
